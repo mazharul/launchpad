@@ -149,7 +149,7 @@ export default class PadSplit extends Component {
     return [
       <Modal
         key="welcome"
-        isOpen={this.state.openModal === 'onboarding'}
+        isOpen={false && this.state.openModal === 'onboarding'}
         onRequestClose={this.handleOnboardingModalClose}
         title="Welcome to Apollo Launchpad!"
       >
